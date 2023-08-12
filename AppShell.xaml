@@ -15,5 +15,10 @@
             Title="About"
             ContentTemplate="{DataTemplate local:Sobre}"
             Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
+        
+        <ShellContent
+            Title="NotePage"
+            ContentTemplate="{DataTemplate local:NotePage}"
+            Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
     </TabBar>
 </Shell>
